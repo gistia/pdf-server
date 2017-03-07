@@ -1,0 +1,16 @@
+{
+  "name": "pdf-server",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Felipe Coury <felipe.coury@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "express": "^4.15.2",
+    "http-proxy": "^1.16.2",
+    "morgan": "^1.8.1",
+    "request": "^2.80.0"
+  }
+}
