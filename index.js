@@ -15,6 +15,8 @@ app.use(cors());
 app.get('/', (req, res) => {
   const target = req.query.target;
   console.log('target', target);
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
   request(target).pipe(res);
 });
 

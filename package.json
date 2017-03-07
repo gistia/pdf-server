@@ -12,5 +12,8 @@
     "http-proxy": "^1.16.2",
     "morgan": "^1.8.1",
     "request": "^2.80.0"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
